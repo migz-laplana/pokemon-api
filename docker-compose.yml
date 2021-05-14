@@ -2,10 +2,11 @@ version: "3.8"
 services:
   pokemon-api:
     build: .
-    volumes:
-      - ".:/pokemon-api"
     ports:
       - "3000:3000"
+    volumes:
+      - .:/pokemon-api
+      - packages:/pokemon-api/node_modules
 
 volumes:
   packages:
