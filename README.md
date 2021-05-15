@@ -1,7 +1,12 @@
-# pokemon-api-expressjs
+# pokemon-api
 
-### Setup
+## Prerequisites
 
-1. `$ docker-compose run --rm pokemon-api npm i`
-2. `$ docker-compose up --build` to launch app 
-4. hit up localhost:3000
+- [Docker](https://docs.docker.com/docker-for-mac/install/)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
+
+## Setup
+
+1. `$ docker-compose run --rm pokemon-api yarn`
+2. `$ docker-compose up --build` to launch app
+3. hit up `localhost:3000`
